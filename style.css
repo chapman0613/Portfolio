@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    font-size: 24px;
+    padding: 8px 16px;
+    font-size: 24px;
+    background-color: #05c7cf;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+   padding-left: 16px;
+}
+
+.row {
+   width: 100%;
+   max-width: 1300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0 auto;
+}
+
+#about,
+#discord,
+#contact,
+#footer {
+    padding: 48px 0;
+}
+
+/*
+
+About Section
+
+*/
+
+#about {
+    background-color: #f8ffdc;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.section__description {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+/*
+
+Discord Section
+
+*/
+
+#discord {
+    padding: 48px 0;
+    background-color: #cefeff;
+}
+
+/*
+
+Contact Section
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 16px 16px;
+}
+
+input, textarea {
+    font-size: 20px;
+    padding: 12px 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/*
+
+Footer Section
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.footer__logo {
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__links {
+    padding: 0 16px;
+}
