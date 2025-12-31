@@ -18,18 +18,19 @@ nav {
 header {
     background-color: #eadcff;
     height: calc(100vh - 70px);
-    padding: 24px;
+    padding:  24px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 60px;
+    padding: ;
 }
 
 .subheader {
-    font-size: 36px;
+    font-size: 28px;
     margin: 16px 0 24px 0;
 }
 
@@ -149,7 +150,7 @@ form {
     width: 100%;
     margin: 0 auto;
     max-width: 600px;
-    padding: 16px 16px;
+    padding: 0px 24px;
 }
 
 input, textarea {
@@ -186,3 +187,80 @@ footer {
 .footer__links {
     padding: 0 16px;
 }
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .home__description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home__description--button {
+        max-width: 240px;
+    }
+
+    .subheader {
+        font-size: 20px;
+        text-align: center;
+    }
+
+        .subheader {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .section__description {
+        flex-direction: column;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+    #discord .section__description {
+        flex-direction: column-reverse
+    }
+
+    footer {
+        padding: 48px 24px;
+    }
+
+.footer__logo {
+    max-width: 360px;
+}
+
+.footer__links {
+   padding: 0 4px;
+   font-size: 18px;
+}
+
+.footer__links li {
+    margin-bottom: 24px;
+}
+
+
+    
+
+
+
+
